@@ -8,7 +8,7 @@ import UpdateItem from "./pages/items/UpdateItem";
 import ItemsLayout from "./pages/items/Layout";
 
 const router = createBrowserRouter([{
-  path: "/estoque",
+  path: "/",
   element: <RootLayout/>,
   children: [
     { index: true,
